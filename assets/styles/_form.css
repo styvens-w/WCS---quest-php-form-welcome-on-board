@@ -1,0 +1,47 @@
+.form {
+    max-width: 60ch;
+    margin: auto;
+
+    & span, small {
+        color: red;
+    }
+
+    & .form-group {
+        display: flex;
+        flex-direction: column;
+        margin: var(--spacing) 0;
+
+        & label {
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+
+        & input, select, textarea {
+            width: auto;
+            background: var(--grey);
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+
+        & input, select {
+            height: 40px;
+            white-space: pre;
+        }
+
+        & input, textarea {
+            padding: 0 5px;
+        }
+    }
+
+    & .form-submit input {
+        background: var(--primary-color);
+        color: var(--primary-color-inverse);
+        width: 80px;
+        height: 30px;
+        border: none;
+        border-radius: 15px;
+        font-weight: 600;
+    }
+}
+
