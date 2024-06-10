@@ -55,7 +55,15 @@
                 quaerat nemo nam, consequuntur nisi alias in praesentium. Fuga amet esse nam doloremque ut nemo nostrum.
             </p>
         </section>
-        <?php include '_form.php'?>
+
+        <section class="container">
+            <h2 id="contact">Get in touch</h2>
+            <p>
+                Leave us a message and we will get back yo you as soon as possible.
+            </p>
+
+            <?php include '_form.php'?>
+        </section>
     </main>
     <?php include '_footer.php' ?>
 </body>

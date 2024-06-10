@@ -1,0 +1,7 @@
+.contactSuccess {
+    height: 100%;
+
+    & h2 {
+        font-size: 34px;
+    }
+}
